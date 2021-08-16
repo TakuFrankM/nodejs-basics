@@ -13,7 +13,7 @@ const port = 8080;
 const server = http.createServer((request, response) => {
     response.statusCode = 200;
     response.setHeader('Content-Type', 'text/html');
-    response.end('Hello World!');
+    response.end('<h1>Hello World!</h1>');
 });
 
 // Run server
