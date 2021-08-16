@@ -10,10 +10,16 @@
  * Returns hello world
  * @returns {string} Hello World!
  */
-function getHelloWorld(){
+function getHelloWorld() {
     return "Hello World!";
 }
 
 // Exposes the hello world function
-module.exports.getHelloWorld = getHelloWorld;
+exports.getHelloWorld = getHelloWorld;
+
+// Compact syntax that does the same thhing
+//
+// exports.getHelloWorld = () => {
+//     return "Hello World!";
+// }
 
