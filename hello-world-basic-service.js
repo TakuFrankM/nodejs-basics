@@ -1,4 +1,8 @@
 /**
+ * @Author Takudzwa Frank Mukarakate
+ * @Version 1.0.0
+ *
+ * Starts a basic http server at localhost and prints "Hello World"
  *
  */
 
